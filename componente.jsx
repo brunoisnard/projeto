@@ -1,9 +1,9 @@
 
 import { StyleSheet, Text, View } from 'react-native';
 
-export function componenteTest(){
+export function ComponenteTest({nome}){
     return (
-<Text> CURSO </Text>
+<Text>{nome}</Text>
 
 );
 
