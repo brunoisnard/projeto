@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import { ComponenteTest } from './componente' 
+import { StyleSheet, Text, View,} from 'react-native';
+import { ComponenteTest } from './Componentes';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
-      <ComponenteTest nome='bruno'/>
+      <ComponenteTest nome='Data'/>
       <StatusBar style="auto" />
     </View>
   );
